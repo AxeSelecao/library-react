@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/library/static/css/main.2dd093dd.css",
+    "main.js": "/library/static/js/main.7476600c.js",
+    "static/js/787.798387e2.chunk.js": "/library/static/js/787.798387e2.chunk.js",
+    "static/media/book-cover.png": "/library/static/media/book-cover.86ddcc7ab9fee8e37b76.png",
+    "static/media/Miras.jpg": "/library/static/media/Miras.d75bdc5a6ab65e88f450.jpg",
+    "static/media/Tamer.jpg": "/library/static/media/Tamer.4b118e5417b11fd0209a.jpg",
+    "static/media/Dias.jpg": "/library/static/media/Dias.23bdda3d82dc5851f0d0.jpg",
+    "static/media/Denis.jpg": "/library/static/media/Denis.2bec1b6ef5ab2ec2b31a.jpg",
+    "static/media/Yerassyl.jpg": "/library/static/media/Yerassyl.1a8347445def16b3de62.jpg",
+    "index.html": "/library/index.html",
+    "main.2dd093dd.css.map": "/library/static/css/main.2dd093dd.css.map",
+    "main.7476600c.js.map": "/library/static/js/main.7476600c.js.map",
+    "787.798387e2.chunk.js.map": "/library/static/js/787.798387e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dd093dd.css",
+    "static/js/main.7476600c.js"
+  ]
+}
