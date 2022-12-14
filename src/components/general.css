@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&display=swap");
+
+* {
+  font-family: "My Soul", cursive;
+}
+
+/*Main*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #cebb53;
+  font-size: 50px;
+  background: url("https://wallpaperaccess.com/full/2114501.jpg");
+  width: 100%;
+  height: 930px;
+  background-size: 100% 100%;
+}
+
+.main h1 {
+  text-shadow: 2px 4px 20px black;
+}
+
+/*Top Books*/
+
+.top-books {
+  display: flex;
+  color: #cebb53;
+  font-family: "My Soul", cursive;
+  font-size: 50px;
+  background: url("https://wallpapercave.com/wp/wp9589069.jpg");
+  width: 100%;
+  min-height: 930px;
+  background-size: 100% 100%;
+}
+
+.top-books-container {
+  width: 50%;
+  margin: 50px auto;
+  background-color: #5f551ae7;
+  border-radius: 10px;
+  border: 3px dashed rgba(127, 134, 27, 0.603);
+}
+
+/*Books Gallery*/
+
+.books-gallery {
+  width: 100%;
+  background: url("https://wallpaperaccess.com/full/2114455.jpg");
+  background-size: 100% 100%;
+  padding: 50px 0;
+}
+
+.books-gallery .link {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.books-block {
+  width: 70%;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: #5f551ae7;
+  border-radius: 10px;
+  border: 3px dashed rgba(127, 134, 27, 0.603);
+}
+
+.books-block h1 {
+  color: #cebb53;
+  font-size: 60px;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  border: 1px solid black;
+  width: 200px;
+  height: 250px;
+  margin: 50px auto 0;
+  background-image: url("../assets/book-cover.png");
+  background-size: 100% 100%;
+  border-radius: 10px;
+  color: #d9d9d9;
+  position: relative;
+}
+
+.book-card-det {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.book-card-link {
+  text-decoration: none !important;
+}
+
+.book-card-det h2 {
+  border: 1px solid #dbd9d94f;
+  background: #dbd9d94f;
+  color: #cdba52 !important;
+  border-radius: 15px;
+  padding: 0 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.book-card-det h2:hover {
+  background-color: #cdba52;
+  transition: 0.35s;
+  border: 1px solid #000;
+  color: #534d46 !important;
+}
+
+.book-card-det .delete {
+  color: red !important;
+}
+
+.book-card-det .delete:hover {
+  background-color: red;
+  transition: 0.35s;
+  border: 1px solid #000;
+  color: #e2e2e2 !important;
+}
+
+.book-card:hover .book-card-det {
+  display: block;
+}
+
+.book-card:hover .display {
+  display: none;
+}
+
+.book-title {
+  margin-top: 85px;
+  font-size: 20px;
+  color: #cebb53;
+  text-shadow: 2px 4px 20px black;
+}
+
+.display {
+  color: #cebb53;
+  font-size: 20px;
+  text-shadow: 2px 4px 20px black;
+}
+
+.book-card h6 {
+  color: #cebb53;
+  font-size: 20px;
+  text-shadow: 2px 4px 20px black;
+}
+
+.book-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.book-card:hover::before {
+  transition: 0.2s;
+  opacity: 1 !important;
+}
+
+.form-block {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+}
+
+input,
+select,
+button {
+  padding: 5px;
+  font-size: 20px;
+  font-family: serif;
+}
+
+input,
+select {
+  margin-right: 20px;
+}
+
+button {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+select,
+button {
+  padding: 10px;
+  background-color: #cebb53;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: #b4a23b;
+  cursor: pointer;
+}
